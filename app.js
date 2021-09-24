@@ -5,7 +5,7 @@ var outputdiv = document.querySelector("#output");
 
 var btn = function act(){
     console.log("clicked!");
-    console.log(txtInput.value);
+    outputdiv.innerText = "Andufunduthandapani " + txtInput.value
 }
 
 btnTranslate.addEventListener("click" , btn);
