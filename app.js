@@ -2,10 +2,16 @@ var btnTranslate = document.querySelector("#btn-translate");
 var txtInput = document.querySelector("#txt-input");
 var outputdiv = document.querySelector("#output");
 
+var url = "https://api.funtranslations.com/translate/minion.json"
 
-var btn = function act(){
-    console.log("clicked!");
-    outputdiv.innerText = "Andufunduthandapani " + txtInput.value
+function translated(text) {
+    return url + "?" + "text=" + text
 }
 
-btnTranslate.addEventListener("click" , btn);
+var btn = function act() {
+    fetch(translated(txtInput.value))
+        .then(response => response.json())
+        .then(abc => outputdiv.innerText = abc.contents.translated)
+        .catch(error => console.log("errore occured", error))
+}
+btnTranslate.addEventListener("click", btn);

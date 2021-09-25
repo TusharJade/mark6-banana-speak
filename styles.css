@@ -7,7 +7,7 @@ body {
     margin: 1rem;
    height: 20vh;
    padding: 1rem;
-   width: 90%;
+   width: 80%;
    margin-bottom: 2.5rem;
    border: solid 1.5px;
 } 
@@ -20,7 +20,7 @@ body {
 #btn-translate {
     padding: 1rem 3rem;
     background-color: yellow;
-    border-radius: 1rem;
+    border-radius: 0.5rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
@@ -28,7 +28,7 @@ body {
 #output {
     border: 1.5px solid black;
     height: 20vh;
-    width: 90%;
+    width: 80%;
     margin: 1rem;
     margin-top: 2rem;
     padding: 1rem;
