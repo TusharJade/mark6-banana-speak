@@ -1,4 +1,6 @@
-
+body {
+    margin: 0;
+}
 
 
 #txt-input {
@@ -8,17 +10,19 @@
    width: 90%;
    margin-bottom: 2.5rem;
    border: solid 1.5px;
-}
-
-body {
+} 
+.center {
     max-width: 600px;
     margin: auto;
 }
 
+
 #btn-translate {
-    padding: 0.5rem 2rem;
-    background-color: #E5E7EB
-    ;
+    padding: 1rem 3rem;
+    background-color: yellow;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 #output {
@@ -28,6 +32,7 @@ body {
     margin: 1rem;
     margin-top: 2rem;
     padding: 1rem;
+    margin-bottom: 3rem;
    
 }
 
@@ -40,3 +45,23 @@ body {
 .marginleft {
     margin-left: 1rem;
 }
+
+.yellow {
+    background-color: yellow;
+   padding: 2rem;    
+   text-align: center;
+   font-weight: bold;
+   margin-bottom: 2rem;
+   font-size: large;
+   border-bottom-left-radius: 1rem;
+}
+
+.yellow2{
+    background-color: yellow;
+   padding: 2rem;    
+   text-align: center;
+   font-weight: bold;
+   font-size: large;
+   border-bottom-right-radius: 1rem;
+}
+
